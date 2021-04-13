@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI' !important;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  font-weight: 5000 !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+
+  background-color: #14171b !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.monkey{
+  width : 100%;
+}
+
+.containerMonkey {
+  margin-top: -15px;
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+.rightSideMonkey{
+  position: absolute;
+  text-align: right;
+  width:30%;
+  left:60%;
+  top:8%;
+}
+.rightSideMonkey > h1{
+  font-size: 7vw;
+}
+
+
+.rightSideMonkey2{
+  position: absolute;
+  text-align: center;
+  width:30%;
+  left:70%;
+  top:43%;
+}
+
+.rightSideMonkey2 > h2{
+  font-size: 3vw;
+}
+
+.bottomSideMonkey{
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  bottom: 15%;
+  left: 25%;
+  width: 50%;
+}
+
+.buttonMonkey{
+  font-size : 1.5vw;
+  font-weight: 600;
+  font-family: 'Segoe UI';
+
+  margin-left: 2vw;
+  margin-top: 1.5vw;
+  width : 13vw;
+  height : 4vw;
+  border:none;
+  
+}
+
+.topLeft{
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 7%;
+  left: 10%;
+}
+
+h1{
+  font-size: 3vw;
+  margin-top: 1vw !important;
+  margin-bottom: 2vw !important;
+  font-weight: 700 !important;
+
+  color:white;
+}
+
+h2{
+  font-size: 1.5vw;
+}
+
+
+.h1Normal{
+  font-size: 3vw !important;
+  margin-top: 1vw !important;
+  margin-bottom: 2vw !important;
+  font-weight: 700 !important;
+
+  color:white;
+}

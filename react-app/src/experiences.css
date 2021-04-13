@@ -1,0 +1,70 @@
+.containerOfBoxes{
+    
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    padding-top: 3vw;
+
+    /*background-image: url("./shatteredGlass.png");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    padding-bottom: 3vw;
+}
+
+.boxOfExperience{
+    width: 19vw;
+    height: 38vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    /*align-self: flex-start;*/
+}
+
+
+.boxOfExperience > .titleBox{
+    height:20%;
+    background-color: rgba(13, 15, 17, 0.8);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxOfExperience > .topImage{
+    height:45%;
+    background-color: rgba(13, 15, 17, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxOfExperience > .bottomText{
+    
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height:35%;
+    background-color: rgba(13, 15, 17, 0.9);
+}
+
+.bottomText > div .text{
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    color: white;
+}
+
+.titleBox > .text{
+    font-size: 2vw;
+    font-weight: 900;
+    color: #d9111c;
+}
+
+.topImage > .text{
+    margin-top: 0vw;
+    font-size: 1.5vw;
+    color: white;
+}

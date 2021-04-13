@@ -1,0 +1,180 @@
+
+.slideshowContainer{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.slideshowContainer > div{
+  width: 75%;
+  position:relative;
+}
+
+.carousel-control{
+  width : 1vw;
+  height : 1vw;
+  margin-left: 10vw;
+}
+
+.bottomSideLmao{
+  position:absolute;
+  bottom:3%;
+  left : 0%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.bottomSideLmao > .button{
+  background-color: white;
+  width : 1.1vw;
+  height: 1.1vw;
+  border-radius: 1vw;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  opacity: 0.4;
+
+  padding: 0;
+  border: none;
+}
+
+.arrow {
+  width: 3.3vw;
+  height: 3.3vw;
+  border: 0.4vw solid rgba(255, 0,0, 0.8);
+  background-color: rgba(0, 0, 0, 0);
+  
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0.3vw solid #d9111c;
+  border-bottom: 0.3vw solid #d9111c;
+
+}
+.arrowButton{
+  width:5vw;
+  height:7vw;
+  background-color: rgba(13, 15, 17, 0.5);
+  border:0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  padding: 0 !important;
+}
+
+
+.left{
+  transform: rotate(135deg);
+  margin-left: 1vw;
+}
+.right{
+  transform: rotate(315deg);
+  margin-right: 1vw;
+}
+
+
+.activeSlide{
+  background-color:red;
+}
+
+.bottomSideLmao > .navButton{
+  color : white;
+}
+
+.image{
+  width : 75%;
+  height: 100%;
+}
+
+.backgroundborder{
+  width: 108%;
+  height: 108%;
+  position: absolute;
+  top: -4%;
+  left: -4%;
+  border:0.2vw solid #d9111c;
+  opacity: 0.8;
+  z-index: -10;
+}
+
+.content{
+  width:25%;
+  background-color: #0d0f11;
+  color: white;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.eachSlide{
+  display: flex;
+  width:100%;
+  height:fit-content;
+  background-color: black;
+}
+
+.buttonContent{
+  width : 16vw;
+  height : 4vw;
+  background-color: #d9111c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
+  border: none;
+}
+
+.buttonContent > h2{
+  font-size: 3vw !important;
+  color: white;
+}
+
+.content > .top{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /*background-color: turquoise;*/
+}
+
+.content > .middle{
+  height : 60%;
+  width : 100%;
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: violet;*/
+}
+
+.content > .middle p {
+  font-size: 1.3vw;
+}
+
+.content > .bottom{
+  height : 20%;
+  width : 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: white;*/
+}
+
+.top > .text{
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  font-size: 3vw;
+  font-weight: 900;
+  color: #d9111c;
+}
+
+.activeButton{
+  opacity : 0.8 !important;
+}
