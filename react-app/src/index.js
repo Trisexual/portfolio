@@ -30,7 +30,7 @@ class Big extends React.Component{
   render(){
     return(
       <div>
-        
+          <section id = "top" />
           <div className = "containerMonkey">
             <div className = "rightSideMonkey">
               <h1>Thomas Zheng</h1>
@@ -38,14 +38,22 @@ class Big extends React.Component{
             <div className = "rightSideMonkey2">
               <h2>get money</h2>
             </div>
+
             <div className = "bottomSideMonkey">
+
               <a href = "https://github.com/Trisexual">
                 <button className="buttonMonkey">Github</button>
               </a>
+              <a href = "mailto:mrthomaszheng@gmail.com">
+                <button className="buttonMonkey">Email Me</button>
+              </a>
+
             </div>
 
+            {/*
             <img src = {PERSONA}
             alt="monkee smiling" className = "monkey" />
+            8*/}
         </div>
         <div style = {{height:"5vw", width:"1vw"}} />
         
@@ -56,7 +64,9 @@ class Big extends React.Component{
         
         <Slideshow />
         
+        {/*
         <Experience />
+        */}
 
         <BottomBit />
         

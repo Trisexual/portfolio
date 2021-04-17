@@ -51,7 +51,7 @@ export class Slideshow extends React.Component{
       <div>
         
         <div style={{display:"flex", marginTop:"2vw", textAlign:"center", justifyContent:"center"}}>
-          <h1 style = {{fontSize : "6vw"}}>Projects</h1>
+          <h1 style = {{fontSize : "min(12vw, 12vh)"}}>Projects</h1>
           <div style={{height:"10vw"}} />         
         </div>
 
@@ -75,9 +75,7 @@ export class Slideshow extends React.Component{
             <Carousel.Item>
 
               <div className = "eachSlide">
-                <div className = "image">
-                  <img alt="" src="https://i.natgeofe.com/n/3861de2a-04e6-45fd-aec8-02e7809f9d4e/02-cat-training-NationalGeographic_1484324.jpg?w=636&h=424"
-                  style = {{color:"green"}}/>
+                <div className = "image" style = {{backgroundImage:"url(https://i.natgeofe.com/n/3861de2a-04e6-45fd-aec8-02e7809f9d4e/02-cat-training-NationalGeographic_1484324.jpg?w=636&h=424)"}}>
                 </div>
                 
                 <div className = "content">
@@ -85,7 +83,7 @@ export class Slideshow extends React.Component{
                     <h2 className = "text">Title</h2>
                   </div>
                   <div className = "middle">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                   </div>
                   <div className = "bottom">
                     <button className = "buttonContent"><h2>Button</h2></button>
@@ -98,8 +96,7 @@ export class Slideshow extends React.Component{
 
             <Carousel.Item>
               <div className = "eachSlide">
-                <div className = "image">
-                  <img alt="" src="https://i.natgeofe.com/n/3861de2a-04e6-45fd-aec8-02e7809f9d4e/02-cat-training-NationalGeographic_1484324.jpg?w=636&h=424" />
+                <div className = "image" style = {{backgroundImage:"url(https://i.natgeofe.com/n/3861de2a-04e6-45fd-aec8-02e7809f9d4e/02-cat-training-NationalGeographic_1484324.jpg?w=636&h=424)"}}>
                 </div>
                 
                 <div className = "content">
@@ -119,8 +116,7 @@ export class Slideshow extends React.Component{
 
             <Carousel.Item>
               <div className = "eachSlide">
-                <div className = "image">
-                  <img alt="" src="https://i.natgeofe.com/n/3861de2a-04e6-45fd-aec8-02e7809f9d4e/02-cat-training-NationalGeographic_1484324.jpg?w=636&h=424" />
+                <div className = "image" style = {{backgroundImage:"url(https://i.natgeofe.com/n/3861de2a-04e6-45fd-aec8-02e7809f9d4e/02-cat-training-NationalGeographic_1484324.jpg?w=636&h=424)"}}>
                 </div>
                 
                 <div className = "content">

@@ -5,13 +5,26 @@ export class BottomBit extends React.Component{
     constructor(props){
         super(props);
         this.state = {a : 3};
+
+        this.scrollTop = this.scrollTop.bind(this);
+    }
+
+    scrollTop(){
+        document.body.scrollTop = 0; 
+        document.documentElement.scrollTop = 0;
     }
 
     render(){
         return (
             <div>
                 <div className = "bottomDiv">
-                    <h1>copyright pls no take</h1>
+
+                    <p>copyright pls no take</p>
+            
+                    <div className = "moveToRight">
+                        <a href = "#top"><button /*onClick = {this.scrollTop}*/ className = "buttonToTop">Back to Top</button></a>
+                    </div>
+
                 </div>
             </div>
         );
