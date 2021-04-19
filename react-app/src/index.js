@@ -6,7 +6,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Experience} from "./experiences.js";
 import {About} from "./about.js";
-import {BottomBit} from "./weirdAssBottomBit.js";
+import {BottomBit} from "./BottomBit.js";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -29,7 +29,7 @@ class Big extends React.Component{
 
   render(){
     return(
-      <div>
+      <div style = {{overflow:"hidden"}}>
           <section id = "top" />
           <div className = "containerMonkey">
             <div className = "rightSideMonkey">

@@ -1,5 +1,5 @@
 import React from "react";
-import "./weirdAssBottomBit.css"
+import "./BottomBit.css"
 
 export class BottomBit extends React.Component{
     constructor(props){
