@@ -64,7 +64,7 @@ class Big extends React.Component{
         
         <Slideshow />
         
-        {/*
+        {/* no longer have experience because i dont ahve any experience
         <Experience />
         */}
 

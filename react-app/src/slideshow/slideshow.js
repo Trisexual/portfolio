@@ -3,7 +3,9 @@ import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./slideshow.css";
-import monkey from "../monkeyyy.png"
+import monkey from "../monkeyyy.png";
+import Image from "react-bootstrap/Image";
+import opgg from "../op-gg-2-3.png"
 
 export class Slideshow extends React.Component{
   constructor(props){
@@ -75,18 +77,18 @@ export class Slideshow extends React.Component{
             <Carousel.Item>
 
               <div className = "eachSlide">
-                <div className = "image" style = {{backgroundImage:"url(https://i.natgeofe.com/n/3861de2a-04e6-45fd-aec8-02e7809f9d4e/02-cat-training-NationalGeographic_1484324.jpg?w=636&h=424)"}}>
+                <div className = "image" style = {{backgroundImage:"url(" + opgg + ")"}}>
                 </div>
                 
                 <div className = "content">
                   <div className = "top">
-                    <h2 className = "text">Title</h2>
+                    <h2 className = "text">OP.GG2</h2>
                   </div>
                   <div className = "middle">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p>A League of Legends stat tracker. Find match history, ranked data, and more.</p>
                   </div>
                   <div className = "bottom">
-                    <button className = "buttonContent"><h2>Button</h2></button>
+                    <button className = "buttonContent" onClick = {() => {window.location.assign("https://github.com/Trisexual/op.gg2")}}><h2>See it</h2></button>
                   </div>
                 </div>
               </div>
