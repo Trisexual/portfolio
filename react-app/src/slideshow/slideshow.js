@@ -6,6 +6,7 @@ import "./slideshow.css";
 import monkey from "../monkeyyy.png";
 import Image from "react-bootstrap/Image";
 import opgg from "../op-gg-2-3.png"
+import jumpBounce from "../jumpBounce.png"
 
 export class Slideshow extends React.Component{
   constructor(props){
@@ -18,7 +19,7 @@ export class Slideshow extends React.Component{
       this.toggleCarousel = this.toggleCarousel.bind(this);
       this.moveTo = this.moveTo.bind(this);
 
-      this.items = 3;
+      this.items = 2;
       this.child = React.createRef();
   }
 
@@ -98,24 +99,24 @@ export class Slideshow extends React.Component{
 
             <Carousel.Item>
               <div className = "eachSlide">
-                <div className = "image" style = {{backgroundImage:"url(https://i.natgeofe.com/n/3861de2a-04e6-45fd-aec8-02e7809f9d4e/02-cat-training-NationalGeographic_1484324.jpg?w=636&h=424)"}}>
+                <div className = "image" style = {{backgroundImage:"url(" + jumpBounce + ")"}}>
                 </div>
                 
                 <div className = "content">
                   <div className = "top">
-                    <h2 className = "text">Title</h2>
+                    <h2 className = "text">Jump Bounce</h2>
                   </div>
                   <div className = "middle">
-                    <p>content</p>
+                    <p>A video game.<br /><br /> Bounce off of platforms to gain a high score.</p>
                   </div>
                   <div className = "bottom">
-                    <button className = "buttonContent"><h2>Button</h2></button>
+                    <button className = "buttonContent" onClick = {() => {window.location.assign("https://trisexual.itch.io/jump-bounce")}}><h2>Play It</h2></button>
                   </div>
                 </div>
               </div>
             </Carousel.Item>
 
-
+            {/*
             <Carousel.Item>
               <div className = "eachSlide">
                 <div className = "image" style = {{backgroundImage:"url(https://i.natgeofe.com/n/3861de2a-04e6-45fd-aec8-02e7809f9d4e/02-cat-training-NationalGeographic_1484324.jpg?w=636&h=424)"}}>
@@ -134,13 +135,15 @@ export class Slideshow extends React.Component{
                 </div>
               </div>
             </Carousel.Item>
+            */}
+
+
           </Carousel>
 
           <div className = "bottomSideLmao">
 
             <button className = {(this.state.index === 0) ? "button activeButton" : "button"} onClick = {() => this.moveTo(0)}/>
             <button className = {(this.state.index === 1) ? "button activeButton" : "button"} onClick = {() => this.moveTo(1)}/>
-            <button className = {(this.state.index === 2) ? "button activeButton" : "button"} onClick = {() => this.moveTo(2)}/>
 
           </div> 
             

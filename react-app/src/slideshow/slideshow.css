@@ -148,6 +148,7 @@ button{
   justify-content: center;
   align-items: center;
   text-align: center;
+  
 }
 
 .content > .middle{
@@ -161,7 +162,7 @@ button{
 }
 
 .content > .middle p {
-  font-size: max(1.3vw, 1.1vh);
+  font-size: max(1.5vw, 1.5vh);
   margin-left: 1vw;
   margin-right: 1vw;
   margin-bottom: 0px;
