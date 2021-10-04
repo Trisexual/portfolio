@@ -41,7 +41,7 @@ class Big extends React.Component{
 
             <div className = "bottomSideMonkey">
 
-              <a href = "https://github.com/Trisexual">
+              <a href = "https://github.com/ZhengThomas">
                 <button className="buttonMonkey">Github</button>
               </a>
               <a href = "mailto:mrthomaszheng@gmail.com">
